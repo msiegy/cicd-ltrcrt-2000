@@ -139,7 +139,7 @@ nodes:
       interface GigabitEthernet0/0
        no switchport
        ip vrf forwarding management
-       ip address 10.10.20.177 255.255.255.0
+       ip address 10.82.145.177 255.255.255.0
        negotiation auto
       !
       interface GigabitEthernet0/1
@@ -313,7 +313,7 @@ nodes:
       interface GigabitEthernet0/0
        no switchport
        ip vrf forwarding management
-       ip address 10.10.20.178 255.255.255.0
+       ip address 10.82.145.178 255.255.255.0
        negotiation auto
       !
       interface GigabitEthernet0/1
@@ -485,7 +485,7 @@ nodes:
       interface GigabitEthernet0/0
        no switchport
        ip vrf forwarding management
-       ip address 10.10.20.179 255.255.255.0
+       ip address 10.82.145.179 255.255.255.0
        negotiation auto
       !
       interface GigabitEthernet0/1
@@ -657,7 +657,7 @@ nodes:
       interface GigabitEthernet0/0
        no switchport
        ip vrf forwarding management
-       ip address 10.10.20.180 255.255.255.0
+       ip address 10.82.145.180 255.255.255.0
        negotiation auto
       !
       interface GigabitEthernet0/1
@@ -771,7 +771,7 @@ nodes:
                   match:
                     name: ens2
                   addresses:
-                    - 10.10.20.181/24
+                    - 10.82.145.181/24
                   set-name: ens2
                 ens3:
                   match:
@@ -889,7 +889,7 @@ nodes:
       !
       interface GigabitEthernet0/0
        ip vrf forwarding management
-       ip address 10.10.20.176 255.255.255.0
+       ip address 10.82.145.176 255.255.255.0
        duplex auto
        speed auto
        media-type rj45
