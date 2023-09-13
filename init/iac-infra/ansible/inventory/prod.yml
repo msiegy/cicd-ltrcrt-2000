@@ -2,21 +2,21 @@
 all:
   hosts:
     rtr-edge:
-      ansible_host: 10.10.20.170
+      ansible_host: 10.82.145.170
   children:
     core:
       hosts:
         sw-core:
-          ansible_host: 10.10.20.171
+          ansible_host: 10.82.145.171
     distribution:
       hosts:
         sw-dist-01:
-          ansible_host: 10.10.20.172
+          ansible_host: 10.82.145.172
           dist_octet: 1
         sw-dist-02:
-          ansible_host: 10.10.20.173
+          ansible_host: 10.82.145.173
           dist_octet: 2
     access:
       hosts:
         sw-acc-01:
-          ansible_host: 10.10.20.174
+          ansible_host: 10.82.145.174

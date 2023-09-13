@@ -56,7 +56,7 @@ nodes:
                   match:
                     name: ens3
                   addresses:
-                    - 10.10.20.50/24
+                    - 10.82.145.50/24
                   set-name: ens3
               version: 2
       runcmd:
