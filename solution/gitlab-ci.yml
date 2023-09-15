@@ -15,6 +15,7 @@ image: xorrkaz/ltrcrt-2000:latest
 # so Ansible will trust its config.
 before_script:
   - chmod 0770 iac-infra/ansible
+  - chmod 0770 ansible/
 
 # Deploy our configuration using Ansible only when the triggering commit is _not_ to the main branch.
 # We cd to the iac-infra/ansible subdirectory so Ansible will find all the right files.
